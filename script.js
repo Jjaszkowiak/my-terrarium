@@ -24,6 +24,7 @@ function dragElement(terrariumElement) {
 		pos2 = 0,
 		pos3 = 0,
 		pos4 = 0;
+	//link to a click
 	terrariumElement.onpointerdown = pointerDrag;
 
 	function pointerDrag(e) {
